@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MagicPrefsPlugins/MagicPrefsPlugins.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:@plugins/FeedBoard/FeedBoard.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:@plugins/HeatSync/HeatSync.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:@plugins/LaunchBoard/LaunchBoard.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:@plugins/MagicLauncher/MagicLauncher.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:@plugins/MPPExample/MPPExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:@plugins/iSightSnap/iSightSnap.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:@plugins/MagicMenu/MagicMenu.xcodeproj">
+   </FileRef>
+</Workspace>
