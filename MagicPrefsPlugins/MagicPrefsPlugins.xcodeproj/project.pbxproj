@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256AC3DA0F4B6AC300CF3369 /* MagicPrefsPluginsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* MagicPrefsPluginsAppDelegate.m */; };
+		4A1421B312984D7000FDBA5E /* VAUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1421B212984D7000FDBA5E /* VAUrlConnection.m */; };
+		4A320212150265F900353324 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A320211150265F900353324 /* Growl.framework */; };
+		4A3202141502661D00353324 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A320211150265F900353324 /* Growl.framework */; };
+		4A5342C2122FAEA900008640 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A5342C1122FAEA900008640 /* click.mp3 */; };
+		4A5342C8122FAF3500008640 /* clickoff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A5342C7122FAF3500008640 /* clickoff.mp3 */; };
+		4A5F75C01239895300016829 /* PluginsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F75BE1239895300016829 /* PluginsWindow.xib */; };
+		4A5F75D2123989AD00016829 /* PluginsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F75D1123989AD00016829 /* PluginsWindowController.m */; };
+		4A5F75D5123989BE00016829 /* VAUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F75D4123989BE00016829 /* VAUserDefaults.m */; };
+		4A5F786D123993E600016829 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F786C123993E600016829 /* MainMenu.xib */; };
+		4A5F78C8123996DD00016829 /* HyperlinkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F78C7123996DD00016829 /* HyperlinkButton.m */; };
+		4A8F4C4612EF846400A46195 /* VAValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C4512EF846400A46195 /* VAValidation.m */; };
+		4A8F4C7E12EF846D00A46195 /* asn_codecs_prim.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C4A12EF846D00A46195 /* asn_codecs_prim.c */; };
+		4A8F4C7F12EF846D00A46195 /* asn_SET_OF.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C4D12EF846D00A46195 /* asn_SET_OF.c */; };
+		4A8F4C8012EF846D00A46195 /* ber_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C5012EF846D00A46195 /* ber_decoder.c */; };
+		4A8F4C8112EF846D00A46195 /* ber_tlv_length.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C5212EF846D00A46195 /* ber_tlv_length.c */; };
+		4A8F4C8212EF846D00A46195 /* ber_tlv_tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C5412EF846D00A46195 /* ber_tlv_tag.c */; };
+		4A8F4C8312EF846D00A46195 /* BIT_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C5612EF846D00A46195 /* BIT_STRING.c */; };
+		4A8F4C8412EF846D00A46195 /* constr_SEQUENCE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C5812EF846D00A46195 /* constr_SEQUENCE.c */; };
+		4A8F4C8512EF846D00A46195 /* constr_SET_OF.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C5A12EF846D00A46195 /* constr_SET_OF.c */; };
+		4A8F4C8612EF846D00A46195 /* constr_TYPE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C5C12EF846D00A46195 /* constr_TYPE.c */; };
+		4A8F4C8712EF846D00A46195 /* constraints.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C5E12EF846D00A46195 /* constraints.c */; };
+		4A8F4C8812EF846D00A46195 /* der_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C6012EF846D00A46195 /* der_encoder.c */; };
+		4A8F4C8912EF846D00A46195 /* ethernet.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C6212EF846D00A46195 /* ethernet.c */; };
+		4A8F4C8A12EF846D00A46195 /* INTEGER.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C6412EF846D00A46195 /* INTEGER.c */; };
+		4A8F4C8B12EF846D00A46195 /* NativeEnumerated.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C6612EF846D00A46195 /* NativeEnumerated.c */; };
+		4A8F4C8C12EF846D00A46195 /* NativeInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C6812EF846D00A46195 /* NativeInteger.c */; };
+		4A8F4C8D12EF846D00A46195 /* OCTET_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C6A12EF846D00A46195 /* OCTET_STRING.c */; };
+		4A8F4C8E12EF846D00A46195 /* Payload.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C6C12EF846D00A46195 /* Payload.c */; };
+		4A8F4C8F12EF846D00A46195 /* per_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C6E12EF846D00A46195 /* per_decoder.c */; };
+		4A8F4C9012EF846D00A46195 /* per_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C7012EF846D00A46195 /* per_encoder.c */; };
+		4A8F4C9112EF846D00A46195 /* per_opentype.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C7212EF846D00A46195 /* per_opentype.c */; };
+		4A8F4C9212EF846D00A46195 /* per_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C7412EF846D00A46195 /* per_support.c */; };
+		4A8F4C9312EF846D00A46195 /* ReceiptAttribute.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C7612EF846D00A46195 /* ReceiptAttribute.c */; };
+		4A8F4C9412EF846D00A46195 /* xer_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C7812EF846D00A46195 /* xer_decoder.c */; };
+		4A8F4C9512EF846D00A46195 /* xer_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C7A12EF846D00A46195 /* xer_encoder.c */; };
+		4A8F4C9612EF846D00A46195 /* xer_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F4C7C12EF846D00A46195 /* xer_support.c */; };
+		4A8F4D9B12EF852300A46195 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8F4D9A12EF852300A46195 /* Security.framework */; };
+		4A9A8F75134B2CC800E04658 /* ssccv in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A8F74134B2CC800E04658 /* ssccv */; };
+		4AA2E98D122C361F0080B82B /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4AA2E98C122C361F0080B82B /* icon.icns */; };
+		4AB09D17135F2EEE002BF1D6 /* MagicMenu.MPplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A34CFB9131003C200C12110 /* MagicMenu.MPplugin */; };
+		4AB09D18135F2EF6002BF1D6 /* MPSafeguard.MPplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AB09D0F135F2E5C002BF1D6 /* MPSafeguard.MPplugin */; };
+		4AB09D19135F2F0F002BF1D6 /* iSightSnap.MPplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A93DD3912FC807800BD2213 /* iSightSnap.MPplugin */; };
+		4AB09D1A135F2F15002BF1D6 /* MagicLauncher.MPplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A93DD3A12FC807800BD2213 /* MagicLauncher.MPplugin */; };
+		4ACAF39B123442D4008C88A9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACAF39A123442D4008C88A9 /* IOKit.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A1371D2122D9FCB00E084FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4AB09D1A135F2F15002BF1D6 /* MagicLauncher.MPplugin in CopyFiles */,
+				4AB09D19135F2F0F002BF1D6 /* iSightSnap.MPplugin in CopyFiles */,
+				4AB09D18135F2EF6002BF1D6 /* MPSafeguard.MPplugin in CopyFiles */,
+				4AB09D17135F2EEE002BF1D6 /* MagicMenu.MPplugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3202131502661600353324 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4A3202141502661D00353324 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		256AC3D80F4B6AC300CF3369 /* MagicPrefsPluginsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicPrefsPluginsAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* MagicPrefsPluginsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicPrefsPluginsAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* MagicPrefsPlugins_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicPrefsPlugins_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4A1421B112984D7000FDBA5E /* VAUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUrlConnection.h; sourceTree = "<group>"; };
+		4A1421B212984D7000FDBA5E /* VAUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUrlConnection.m; sourceTree = "<group>"; };
+		4A320211150265F900353324 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = "../@frameworks/Growl-1.3.1-SDK/Framework/Growl.framework"; sourceTree = "<group>"; };
+		4A34CFB9131003C200C12110 /* MagicMenu.MPplugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MagicMenu.MPplugin; path = "../../../../../../Users/valexa/Library/Developer/Xcode/DerivedData/@builds/Products/Release/MagicMenu.MPplugin"; sourceTree = "<group>"; };
+		4A5342C1122FAEA900008640 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		4A5342C7122FAF3500008640 /* clickoff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickoff.mp3; sourceTree = "<group>"; };
+		4A5F75BF1239895300016829 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "../../../../vlad/work/@OSX/@prefpanes/MagicPrefs/English.lproj/PluginsWindow.xib"; sourceTree = SOURCE_ROOT; };
+		4A5F75D0123989AD00016829 /* PluginsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginsWindowController.h; path = "../../../../vlad/work/@OSX/@prefpanes/MagicPrefs/PluginsWindowController.h"; sourceTree = SOURCE_ROOT; };
+		4A5F75D1123989AD00016829 /* PluginsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PluginsWindowController.m; path = "../../../../vlad/work/@OSX/@prefpanes/MagicPrefs/PluginsWindowController.m"; sourceTree = SOURCE_ROOT; };
+		4A5F75D3123989BE00016829 /* VAUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VAUserDefaults.h; path = "../../../../vlad/work/@OSX/@prefpanes/MagicPrefs/VAUserDefaults.h"; sourceTree = SOURCE_ROOT; };
+		4A5F75D4123989BE00016829 /* VAUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VAUserDefaults.m; path = "../../../../vlad/work/@OSX/@prefpanes/MagicPrefs/VAUserDefaults.m"; sourceTree = SOURCE_ROOT; };
+		4A5F786C123993E600016829 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		4A5F78C6123996DD00016829 /* HyperlinkButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HyperlinkButton.h; path = "../../../../vlad/work/@OSX/@prefpanes/MagicPrefs/HyperlinkButton.h"; sourceTree = SOURCE_ROOT; };
+		4A5F78C7123996DD00016829 /* HyperlinkButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HyperlinkButton.m; path = "../../../../vlad/work/@OSX/@prefpanes/MagicPrefs/HyperlinkButton.m"; sourceTree = SOURCE_ROOT; };
+		4A8F4C4412EF846400A46195 /* VAValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VAValidation.h; path = ../VAValidation.h; sourceTree = SOURCE_ROOT; };
+		4A8F4C4512EF846400A46195 /* VAValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VAValidation.m; path = ../VAValidation.m; sourceTree = SOURCE_ROOT; };
+		4A8F4C4812EF846D00A46195 /* asn_application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_application.h; sourceTree = "<group>"; };
+		4A8F4C4912EF846D00A46195 /* asn_codecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_codecs.h; sourceTree = "<group>"; };
+		4A8F4C4A12EF846D00A46195 /* asn_codecs_prim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asn_codecs_prim.c; sourceTree = "<group>"; };
+		4A8F4C4B12EF846D00A46195 /* asn_codecs_prim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_codecs_prim.h; sourceTree = "<group>"; };
+		4A8F4C4C12EF846D00A46195 /* asn_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_internal.h; sourceTree = "<group>"; };
+		4A8F4C4D12EF846D00A46195 /* asn_SET_OF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asn_SET_OF.c; sourceTree = "<group>"; };
+		4A8F4C4E12EF846D00A46195 /* asn_SET_OF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_SET_OF.h; sourceTree = "<group>"; };
+		4A8F4C4F12EF846D00A46195 /* asn_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_system.h; sourceTree = "<group>"; };
+		4A8F4C5012EF846D00A46195 /* ber_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_decoder.c; sourceTree = "<group>"; };
+		4A8F4C5112EF846D00A46195 /* ber_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_decoder.h; sourceTree = "<group>"; };
+		4A8F4C5212EF846D00A46195 /* ber_tlv_length.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_tlv_length.c; sourceTree = "<group>"; };
+		4A8F4C5312EF846D00A46195 /* ber_tlv_length.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_tlv_length.h; sourceTree = "<group>"; };
+		4A8F4C5412EF846D00A46195 /* ber_tlv_tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_tlv_tag.c; sourceTree = "<group>"; };
+		4A8F4C5512EF846D00A46195 /* ber_tlv_tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_tlv_tag.h; sourceTree = "<group>"; };
+		4A8F4C5612EF846D00A46195 /* BIT_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BIT_STRING.c; sourceTree = "<group>"; };
+		4A8F4C5712EF846D00A46195 /* BIT_STRING.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIT_STRING.h; sourceTree = "<group>"; };
+		4A8F4C5812EF846D00A46195 /* constr_SEQUENCE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_SEQUENCE.c; sourceTree = "<group>"; };
+		4A8F4C5912EF846D00A46195 /* constr_SEQUENCE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_SEQUENCE.h; sourceTree = "<group>"; };
+		4A8F4C5A12EF846D00A46195 /* constr_SET_OF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_SET_OF.c; sourceTree = "<group>"; };
+		4A8F4C5B12EF846D00A46195 /* constr_SET_OF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_SET_OF.h; sourceTree = "<group>"; };
+		4A8F4C5C12EF846D00A46195 /* constr_TYPE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_TYPE.c; sourceTree = "<group>"; };
+		4A8F4C5D12EF846D00A46195 /* constr_TYPE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_TYPE.h; sourceTree = "<group>"; };
+		4A8F4C5E12EF846D00A46195 /* constraints.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constraints.c; sourceTree = "<group>"; };
+		4A8F4C5F12EF846D00A46195 /* constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constraints.h; sourceTree = "<group>"; };
+		4A8F4C6012EF846D00A46195 /* der_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = der_encoder.c; sourceTree = "<group>"; };
+		4A8F4C6112EF846D00A46195 /* der_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = der_encoder.h; sourceTree = "<group>"; };
+		4A8F4C6212EF846D00A46195 /* ethernet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ethernet.c; sourceTree = "<group>"; };
+		4A8F4C6312EF846D00A46195 /* ethernet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ethernet.h; sourceTree = "<group>"; };
+		4A8F4C6412EF846D00A46195 /* INTEGER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = INTEGER.c; sourceTree = "<group>"; };
+		4A8F4C6512EF846D00A46195 /* INTEGER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTEGER.h; sourceTree = "<group>"; };
+		4A8F4C6612EF846D00A46195 /* NativeEnumerated.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NativeEnumerated.c; sourceTree = "<group>"; };
+		4A8F4C6712EF846D00A46195 /* NativeEnumerated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeEnumerated.h; sourceTree = "<group>"; };
+		4A8F4C6812EF846D00A46195 /* NativeInteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NativeInteger.c; sourceTree = "<group>"; };
+		4A8F4C6912EF846D00A46195 /* NativeInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeInteger.h; sourceTree = "<group>"; };
+		4A8F4C6A12EF846D00A46195 /* OCTET_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OCTET_STRING.c; sourceTree = "<group>"; };
+		4A8F4C6B12EF846D00A46195 /* OCTET_STRING.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTET_STRING.h; sourceTree = "<group>"; };
+		4A8F4C6C12EF846D00A46195 /* Payload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Payload.c; sourceTree = "<group>"; };
+		4A8F4C6D12EF846D00A46195 /* Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payload.h; sourceTree = "<group>"; };
+		4A8F4C6E12EF846D00A46195 /* per_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_decoder.c; sourceTree = "<group>"; };
+		4A8F4C6F12EF846D00A46195 /* per_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_decoder.h; sourceTree = "<group>"; };
+		4A8F4C7012EF846D00A46195 /* per_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_encoder.c; sourceTree = "<group>"; };
+		4A8F4C7112EF846D00A46195 /* per_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_encoder.h; sourceTree = "<group>"; };
+		4A8F4C7212EF846D00A46195 /* per_opentype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_opentype.c; sourceTree = "<group>"; };
+		4A8F4C7312EF846D00A46195 /* per_opentype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_opentype.h; sourceTree = "<group>"; };
+		4A8F4C7412EF846D00A46195 /* per_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_support.c; sourceTree = "<group>"; };
+		4A8F4C7512EF846D00A46195 /* per_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_support.h; sourceTree = "<group>"; };
+		4A8F4C7612EF846D00A46195 /* ReceiptAttribute.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReceiptAttribute.c; sourceTree = "<group>"; };
+		4A8F4C7712EF846D00A46195 /* ReceiptAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptAttribute.h; sourceTree = "<group>"; };
+		4A8F4C7812EF846D00A46195 /* xer_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_decoder.c; sourceTree = "<group>"; };
+		4A8F4C7912EF846D00A46195 /* xer_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_decoder.h; sourceTree = "<group>"; };
+		4A8F4C7A12EF846D00A46195 /* xer_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_encoder.c; sourceTree = "<group>"; };
+		4A8F4C7B12EF846D00A46195 /* xer_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_encoder.h; sourceTree = "<group>"; };
+		4A8F4C7C12EF846D00A46195 /* xer_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_support.c; sourceTree = "<group>"; };
+		4A8F4C7D12EF846D00A46195 /* xer_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_support.h; sourceTree = "<group>"; };
+		4A8F4D9A12EF852300A46195 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		4A93DD3912FC807800BD2213 /* iSightSnap.MPplugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iSightSnap.MPplugin; path = "../../../../../../Users/valexa/Library/Developer/Xcode/DerivedData/@builds/Products/Release/iSightSnap.MPplugin"; sourceTree = "<group>"; };
+		4A93DD3A12FC807800BD2213 /* MagicLauncher.MPplugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MagicLauncher.MPplugin; path = "../../../../../../Users/valexa/Library/Developer/Xcode/DerivedData/@builds/Products/Release/MagicLauncher.MPplugin"; sourceTree = "<group>"; };
+		4A9A8F74134B2CC800E04658 /* ssccv */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = ssccv; path = "../../../../../../Users/valexa/Library/Developer/Xcode/DerivedData/@builds/Products/Release/ssccv"; sourceTree = "<group>"; };
+		4AA2E98C122C361F0080B82B /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		4AAF9CA8122CF21D00498D4B /* MPPluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPPluginInterface.h; path = "../@plugins/MPPluginInterface.h"; sourceTree = SOURCE_ROOT; };
+		4AB09D0F135F2E5C002BF1D6 /* MPSafeguard.MPplugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MPSafeguard.MPplugin; path = "../../../../../../Users/valexa/Library/Developer/Xcode/DerivedData/@builds/Products/Release/MPSafeguard.MPplugin"; sourceTree = "<group>"; };
+		4ACAF39A123442D4008C88A9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* MagicPrefsPlugins-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MagicPrefsPlugins-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MagicPrefsPlugins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicPrefsPlugins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				4ACAF39B123442D4008C88A9 /* IOKit.framework in Frameworks */,
+				4A8F4D9B12EF852300A46195 /* Security.framework in Frameworks */,
+				4A320212150265F900353324 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A1421B112984D7000FDBA5E /* VAUrlConnection.h */,
+				4A1421B212984D7000FDBA5E /* VAUrlConnection.m */,
+				256AC3D80F4B6AC300CF3369 /* MagicPrefsPluginsAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* MagicPrefsPluginsAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ACAF39A123442D4008C88A9 /* IOKit.framework */,
+				4A8F4D9A12EF852300A46195 /* Security.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MagicPrefsPlugins.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MagicPrefsPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				4A9A8F74134B2CC800E04658 /* ssccv */,
+				4AB09D0F135F2E5C002BF1D6 /* MPSafeguard.MPplugin */,
+				4A34CFB9131003C200C12110 /* MagicMenu.MPplugin */,
+				4A93DD3912FC807800BD2213 /* iSightSnap.MPplugin */,
+				4A93DD3A12FC807800BD2213 /* MagicLauncher.MPplugin */,
+				4A8F4C4712EF846D00A46195 /* asn1 */,
+				4A5F75C61239899000016829 /* Linked */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MagicPrefsPlugins;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4AAF9CA8122CF21D00498D4B /* MPPluginInterface.h */,
+				256AC3F00F4B6AF500CF3369 /* MagicPrefsPlugins_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A5342C7122FAF3500008640 /* clickoff.mp3 */,
+				4A5342C1122FAEA900008640 /* click.mp3 */,
+				4AA2E98C122C361F0080B82B /* icon.icns */,
+				8D1107310486CEB800E47090 /* MagicPrefsPlugins-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				4A5F786C123993E600016829 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A320211150265F900353324 /* Growl.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A5F75C61239899000016829 /* Linked */ = {
+			isa = PBXGroup;
+			children = (
+				4A8F4C4412EF846400A46195 /* VAValidation.h */,
+				4A8F4C4512EF846400A46195 /* VAValidation.m */,
+				4A5F78C6123996DD00016829 /* HyperlinkButton.h */,
+				4A5F78C7123996DD00016829 /* HyperlinkButton.m */,
+				4A5F75D3123989BE00016829 /* VAUserDefaults.h */,
+				4A5F75D4123989BE00016829 /* VAUserDefaults.m */,
+				4A5F75D0123989AD00016829 /* PluginsWindowController.h */,
+				4A5F75D1123989AD00016829 /* PluginsWindowController.m */,
+				4A5F75BE1239895300016829 /* PluginsWindow.xib */,
+			);
+			name = Linked;
+			sourceTree = "<group>";
+		};
+		4A8F4C4712EF846D00A46195 /* asn1 */ = {
+			isa = PBXGroup;
+			children = (
+				4A8F4C4812EF846D00A46195 /* asn_application.h */,
+				4A8F4C4912EF846D00A46195 /* asn_codecs.h */,
+				4A8F4C4A12EF846D00A46195 /* asn_codecs_prim.c */,
+				4A8F4C4B12EF846D00A46195 /* asn_codecs_prim.h */,
+				4A8F4C4C12EF846D00A46195 /* asn_internal.h */,
+				4A8F4C4D12EF846D00A46195 /* asn_SET_OF.c */,
+				4A8F4C4E12EF846D00A46195 /* asn_SET_OF.h */,
+				4A8F4C4F12EF846D00A46195 /* asn_system.h */,
+				4A8F4C5012EF846D00A46195 /* ber_decoder.c */,
+				4A8F4C5112EF846D00A46195 /* ber_decoder.h */,
+				4A8F4C5212EF846D00A46195 /* ber_tlv_length.c */,
+				4A8F4C5312EF846D00A46195 /* ber_tlv_length.h */,
+				4A8F4C5412EF846D00A46195 /* ber_tlv_tag.c */,
+				4A8F4C5512EF846D00A46195 /* ber_tlv_tag.h */,
+				4A8F4C5612EF846D00A46195 /* BIT_STRING.c */,
+				4A8F4C5712EF846D00A46195 /* BIT_STRING.h */,
+				4A8F4C5812EF846D00A46195 /* constr_SEQUENCE.c */,
+				4A8F4C5912EF846D00A46195 /* constr_SEQUENCE.h */,
+				4A8F4C5A12EF846D00A46195 /* constr_SET_OF.c */,
+				4A8F4C5B12EF846D00A46195 /* constr_SET_OF.h */,
+				4A8F4C5C12EF846D00A46195 /* constr_TYPE.c */,
+				4A8F4C5D12EF846D00A46195 /* constr_TYPE.h */,
+				4A8F4C5E12EF846D00A46195 /* constraints.c */,
+				4A8F4C5F12EF846D00A46195 /* constraints.h */,
+				4A8F4C6012EF846D00A46195 /* der_encoder.c */,
+				4A8F4C6112EF846D00A46195 /* der_encoder.h */,
+				4A8F4C6212EF846D00A46195 /* ethernet.c */,
+				4A8F4C6312EF846D00A46195 /* ethernet.h */,
+				4A8F4C6412EF846D00A46195 /* INTEGER.c */,
+				4A8F4C6512EF846D00A46195 /* INTEGER.h */,
+				4A8F4C6612EF846D00A46195 /* NativeEnumerated.c */,
+				4A8F4C6712EF846D00A46195 /* NativeEnumerated.h */,
+				4A8F4C6812EF846D00A46195 /* NativeInteger.c */,
+				4A8F4C6912EF846D00A46195 /* NativeInteger.h */,
+				4A8F4C6A12EF846D00A46195 /* OCTET_STRING.c */,
+				4A8F4C6B12EF846D00A46195 /* OCTET_STRING.h */,
+				4A8F4C6C12EF846D00A46195 /* Payload.c */,
+				4A8F4C6D12EF846D00A46195 /* Payload.h */,
+				4A8F4C6E12EF846D00A46195 /* per_decoder.c */,
+				4A8F4C6F12EF846D00A46195 /* per_decoder.h */,
+				4A8F4C7012EF846D00A46195 /* per_encoder.c */,
+				4A8F4C7112EF846D00A46195 /* per_encoder.h */,
+				4A8F4C7212EF846D00A46195 /* per_opentype.c */,
+				4A8F4C7312EF846D00A46195 /* per_opentype.h */,
+				4A8F4C7412EF846D00A46195 /* per_support.c */,
+				4A8F4C7512EF846D00A46195 /* per_support.h */,
+				4A8F4C7612EF846D00A46195 /* ReceiptAttribute.c */,
+				4A8F4C7712EF846D00A46195 /* ReceiptAttribute.h */,
+				4A8F4C7812EF846D00A46195 /* xer_decoder.c */,
+				4A8F4C7912EF846D00A46195 /* xer_decoder.h */,
+				4A8F4C7A12EF846D00A46195 /* xer_encoder.c */,
+				4A8F4C7B12EF846D00A46195 /* xer_encoder.h */,
+				4A8F4C7C12EF846D00A46195 /* xer_support.c */,
+				4A8F4C7D12EF846D00A46195 /* xer_support.h */,
+			);
+			name = asn1;
+			path = "../@tmp/asn1";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MagicPrefsPlugins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MagicPrefsPlugins" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				4A1371D2122D9FCB00E084FB /* CopyFiles */,
+				4A3202131502661600353324 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicPrefsPlugins;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MagicPrefsPlugins;
+			productReference = 8D1107320486CEB800E47090 /* MagicPrefsPlugins.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MagicPrefsPlugins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MagicPrefsPlugins */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MagicPrefsPlugins */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				4AA2E98D122C361F0080B82B /* icon.icns in Resources */,
+				4A5342C2122FAEA900008640 /* click.mp3 in Resources */,
+				4A5342C8122FAF3500008640 /* clickoff.mp3 in Resources */,
+				4A5F75C01239895300016829 /* PluginsWindow.xib in Resources */,
+				4A5F786D123993E600016829 /* MainMenu.xib in Resources */,
+				4A9A8F75134B2CC800E04658 /* ssccv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* MagicPrefsPluginsAppDelegate.m in Sources */,
+				4A5F75D2123989AD00016829 /* PluginsWindowController.m in Sources */,
+				4A5F75D5123989BE00016829 /* VAUserDefaults.m in Sources */,
+				4A5F78C8123996DD00016829 /* HyperlinkButton.m in Sources */,
+				4A1421B312984D7000FDBA5E /* VAUrlConnection.m in Sources */,
+				4A8F4C4612EF846400A46195 /* VAValidation.m in Sources */,
+				4A8F4C7E12EF846D00A46195 /* asn_codecs_prim.c in Sources */,
+				4A8F4C7F12EF846D00A46195 /* asn_SET_OF.c in Sources */,
+				4A8F4C8012EF846D00A46195 /* ber_decoder.c in Sources */,
+				4A8F4C8112EF846D00A46195 /* ber_tlv_length.c in Sources */,
+				4A8F4C8212EF846D00A46195 /* ber_tlv_tag.c in Sources */,
+				4A8F4C8312EF846D00A46195 /* BIT_STRING.c in Sources */,
+				4A8F4C8412EF846D00A46195 /* constr_SEQUENCE.c in Sources */,
+				4A8F4C8512EF846D00A46195 /* constr_SET_OF.c in Sources */,
+				4A8F4C8612EF846D00A46195 /* constr_TYPE.c in Sources */,
+				4A8F4C8712EF846D00A46195 /* constraints.c in Sources */,
+				4A8F4C8812EF846D00A46195 /* der_encoder.c in Sources */,
+				4A8F4C8912EF846D00A46195 /* ethernet.c in Sources */,
+				4A8F4C8A12EF846D00A46195 /* INTEGER.c in Sources */,
+				4A8F4C8B12EF846D00A46195 /* NativeEnumerated.c in Sources */,
+				4A8F4C8C12EF846D00A46195 /* NativeInteger.c in Sources */,
+				4A8F4C8D12EF846D00A46195 /* OCTET_STRING.c in Sources */,
+				4A8F4C8E12EF846D00A46195 /* Payload.c in Sources */,
+				4A8F4C8F12EF846D00A46195 /* per_decoder.c in Sources */,
+				4A8F4C9012EF846D00A46195 /* per_encoder.c in Sources */,
+				4A8F4C9112EF846D00A46195 /* per_opentype.c in Sources */,
+				4A8F4C9212EF846D00A46195 /* per_support.c in Sources */,
+				4A8F4C9312EF846D00A46195 /* ReceiptAttribute.c in Sources */,
+				4A8F4C9412EF846D00A46195 /* xer_decoder.c in Sources */,
+				4A8F4C9512EF846D00A46195 /* xer_encoder.c in Sources */,
+				4A8F4C9612EF846D00A46195 /* xer_support.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A5F75BE1239895300016829 /* PluginsWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5F75BF1239895300016829 /* English */,
+			);
+			name = PluginsWindow.xib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Vlad Alexa";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../@frameworks/Growl-1.3.1-SDK/Framework\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MagicPrefsPlugins_Prefix.pch;
+				INFOPLIST_FILE = "MagicPrefsPlugins-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = MagicPrefsPlugins;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Vlad Alexa";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../@frameworks/Growl-1.3.1-SDK/Framework\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MagicPrefsPlugins_Prefix.pch;
+				INFOPLIST_FILE = "MagicPrefsPlugins-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = MagicPrefsPlugins;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Vlad Alexa";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "-o kill";
+				OTHER_LDFLAGS = "-lcrypto";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Vlad Alexa";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CODE_SIGN_FLAGS = "-o kill";
+				OTHER_LDFLAGS = "-lcrypto";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MagicPrefsPlugins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MagicPrefsPlugins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

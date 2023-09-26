@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ssccv' target in the 'ssccv' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

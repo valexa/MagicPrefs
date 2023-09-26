@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<string>1 finger axis click</string>
+	<key>2</key>
+	<string>2 finger click</string>
+	<key>3</key>
+	<string>3 finger click</string>
+	<key>4</key>
+	<string>4 finger click</string>
+	<key>5</key>
+	<string>1 finger tap</string>
+	<key>6</key>
+	<string>2 finger tap</string>
+	<key>7</key>
+	<string>3 finger tap</string>
+	<key>8</key>
+	<string>4 finger tap</string>
+	<key>9</key>
+	<string>1 finger tap left</string>
+	<key>10</key>
+	<string>1 finger tap right</string>
+	<key>11</key>
+	<string>1 finger tap tail</string>
+	<key>21</key>
+	<string>two finger swipe left</string>
+	<key>22</key>
+	<string>two finger swipe right</string>
+	<key>23</key>
+	<string>two finger swipe up</string>
+	<key>24</key>
+	<string>two finger swipe down</string>
+	<key>25</key>
+	<string>three finger swipe left</string>
+	<key>26</key>
+	<string>three finger swipe right</string>
+	<key>27</key>
+	<string>three finger swipe up</string>
+	<key>28</key>
+	<string>three finger swipe down</string>
+	<key>31</key>
+	<string>drag tail left</string>
+	<key>32</key>
+	<string>drag tail right</string>
+	<key>33</key>
+	<string>two finger pinch in</string>
+	<key>34</key>
+	<string>two finger pinch out</string>
+	<key>35</key>
+	<string>three finger pinch in</string>
+	<key>36</key>
+	<string>three finger pinch out</string>
+	<key>201</key>
+	<string>Two Finger Click</string>
+	<key>202</key>
+	<string>Three Finger Click</string>
+	<key>203</key>
+	<string>Four Finger Click</string>
+	<key>204</key>
+	<string>Five Finger Click</string>
+	<key>206</key>
+	<string>1 finger tap</string>
+	<key>207</key>
+	<string>1 finger tap</string>
+	<key>208</key>
+	<string>2 finger tap</string>
+	<key>209</key>
+	<string>2 finger tap</string>
+	<key>210</key>
+	<string>3 finger tap</string>
+	<key>211</key>
+	<string>4 finger tap</string>
+	<key>301</key>
+	<string>Two Finger Click</string>
+	<key>302</key>
+	<string>Three Finger Click</string>
+	<key>303</key>
+	<string>Four Finger Click</string>
+	<key>304</key>
+	<string>Five Finger Click</string>
+	<key>306</key>
+	<string>1 finger tap</string>
+	<key>307</key>
+	<string>1 finger tap</string>
+	<key>308</key>
+	<string>2 finger tap</string>
+	<key>309</key>
+	<string>2 finger tap</string>
+	<key>310</key>
+	<string>3 finger tap</string>
+	<key>311</key>
+	<string>4 finger tap</string>
+	<key>220</key>
+	<string>three finger swipe left</string>
+	<key>221</key>
+	<string>three finger swipe right</string>
+	<key>222</key>
+	<string>three finger swipe up</string>
+	<key>223</key>
+	<string>three finger swipe down</string>
+	<key>226</key>
+	<string>four finger swipe left</string>
+	<key>227</key>
+	<string>four finger swipe right</string>
+	<key>228</key>
+	<string>four finger swipe up</string>
+	<key>229</key>
+	<string>four finger swipe down</string>
+	<key>230</key>
+	<string>two finger rotate clockwise</string>
+	<key>231</key>
+	<string>two finger rotate clockwise</string>
+	<key>232</key>
+	<string>two finger rotate counterclockwise</string>
+	<key>233</key>
+	<string>two finger rotate counterclockwise</string>
+	<key>234</key>
+	<string>three finger pinch in</string>
+	<key>235</key>
+	<string>three finger pinch out</string>
+	<key>236</key>
+	<string>two finger pinch in</string>
+	<key>237</key>
+	<string>two finger pinch in</string>
+	<key>238</key>
+	<string>two finger pinch out</string>
+	<key>239</key>
+	<string>two finger pinch out</string>
+	<key>320</key>
+	<string>three finger swipe left</string>
+	<key>321</key>
+	<string>three finger swipe right</string>
+	<key>322</key>
+	<string>three finger swipe up</string>
+	<key>323</key>
+	<string>three finger swipe down</string>
+	<key>326</key>
+	<string>four finger swipe left</string>
+	<key>327</key>
+	<string>four finger swipe right</string>
+	<key>328</key>
+	<string>four finger swipe up</string>
+	<key>329</key>
+	<string>four finger swipe down</string>
+	<key>330</key>
+	<string>two finger rotate clockwise</string>
+	<key>331</key>
+	<string>two finger rotate clockwise</string>
+	<key>332</key>
+	<string>two finger rotate counterclockwise</string>
+	<key>333</key>
+	<string>two finger rotate counterclockwise</string>
+	<key>334</key>
+	<string>three finger pinch in</string>
+	<key>335</key>
+	<string>three finger pinch out</string>
+	<key>336</key>
+	<string>two finger pinch in</string>
+	<key>337</key>
+	<string>two finger pinch in</string>
+	<key>338</key>
+	<string>two finger pinch out</string>
+	<key>339</key>
+	<string>two finger pinch out</string>
+</dict>
+</plist>
