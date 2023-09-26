@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0AF9B612B8C79E00383309 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0AF9B312B8C79E00383309 /* delete.png */; };
+		4A0AF9B712B8C79E00383309 /* dot_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0AF9B412B8C79E00383309 /* dot_white.png */; };
+		4A0AF9B812B8C79E00383309 /* dot_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0AF9B512B8C79E00383309 /* dot_black.png */; };
+		4A80274D12AD0AB000C9355B /* LaunchBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A80274C12AD0AB000C9355B /* LaunchBoard.m */; };
+		4A8027B112AD101400C9355B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8027B012AD101400C9355B /* icon.png */; };
+		4AA2906F142763BF007EFAD1 /* LaunchBoardPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2906D142763BF007EFAD1 /* LaunchBoardPreferences.m */; };
+		4AA29070142763BF007EFAD1 /* LaunchBoardPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA2906E142763BF007EFAD1 /* LaunchBoardPreferences.xib */; };
+		4AA66CA412CDC34F00D4F374 /* showLaunchBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA66CA312CDC34F00D4F374 /* showLaunchBoard.png */; };
+		4ACC814A12E428B400039B44 /* LaunchBoardMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC814912E428B400039B44 /* LaunchBoardMainWindow.m */; };
+		4ACC81F612E42EF200039B44 /* BlurWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC81F512E42EF200039B44 /* BlurWindow.m */; };
+		4AEE3CAC12B794D800FE2962 /* LaunchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE3CAB12B794D800FE2962 /* LaunchButton.m */; };
+		4AEE3D3312B7966800FE2962 /* LaunchWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE3D3212B7966800FE2962 /* LaunchWindow.m */; };
+		4AEE3EEF12B7AD7400FE2962 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEE3EEE12B7AD7400FE2962 /* QuartzCore.framework */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* LaunchBoard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchBoard_Prefix.pch; sourceTree = "<group>"; };
+		4A0AF9B312B8C79E00383309 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		4A0AF9B412B8C79E00383309 /* dot_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_white.png; sourceTree = "<group>"; };
+		4A0AF9B512B8C79E00383309 /* dot_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_black.png; sourceTree = "<group>"; };
+		4A80274B12AD0AB000C9355B /* LaunchBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchBoard.h; sourceTree = "<group>"; };
+		4A80274C12AD0AB000C9355B /* LaunchBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchBoard.m; sourceTree = "<group>"; };
+		4A80275712AD0AD800C9355B /* MPPluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPPluginInterface.h; path = ../MPPluginInterface.h; sourceTree = SOURCE_ROOT; };
+		4A8027B012AD101400C9355B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4AA2906C142763BF007EFAD1 /* LaunchBoardPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchBoardPreferences.h; sourceTree = "<group>"; };
+		4AA2906D142763BF007EFAD1 /* LaunchBoardPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchBoardPreferences.m; sourceTree = "<group>"; };
+		4AA2906E142763BF007EFAD1 /* LaunchBoardPreferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchBoardPreferences.xib; sourceTree = "<group>"; };
+		4AA66CA312CDC34F00D4F374 /* showLaunchBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showLaunchBoard.png; sourceTree = "<group>"; };
+		4ACC814812E428B400039B44 /* LaunchBoardMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchBoardMainWindow.h; sourceTree = "<group>"; };
+		4ACC814912E428B400039B44 /* LaunchBoardMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchBoardMainWindow.m; sourceTree = "<group>"; };
+		4ACC81F412E42EF200039B44 /* BlurWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlurWindow.h; path = ../FeedBoard/BlurWindow.h; sourceTree = SOURCE_ROOT; };
+		4ACC81F512E42EF200039B44 /* BlurWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlurWindow.m; path = ../FeedBoard/BlurWindow.m; sourceTree = SOURCE_ROOT; };
+		4AEE3CAA12B794D800FE2962 /* LaunchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchButton.h; sourceTree = "<group>"; };
+		4AEE3CAB12B794D800FE2962 /* LaunchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchButton.m; sourceTree = "<group>"; };
+		4AEE3D3112B7966800FE2962 /* LaunchWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchWindow.h; sourceTree = "<group>"; };
+		4AEE3D3212B7966800FE2962 /* LaunchWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchWindow.m; sourceTree = "<group>"; };
+		4AEE3EEE12B7AD7400FE2962 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		8D5B49B6048680CD000E48DA /* LaunchBoard.MPplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchBoard.MPplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				4AEE3EEF12B7AD7400FE2962 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* LaunchBoard */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = LaunchBoard;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A0AF9B312B8C79E00383309 /* delete.png */,
+				4A0AF9B412B8C79E00383309 /* dot_white.png */,
+				4A0AF9B512B8C79E00383309 /* dot_black.png */,
+				4AA66CA312CDC34F00D4F374 /* showLaunchBoard.png */,
+				4A8027B012AD101400C9355B /* icon.png */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				4AA2906E142763BF007EFAD1 /* LaunchBoardPreferences.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC81F412E42EF200039B44 /* BlurWindow.h */,
+				4ACC81F512E42EF200039B44 /* BlurWindow.m */,
+				4ACC814812E428B400039B44 /* LaunchBoardMainWindow.h */,
+				4ACC814912E428B400039B44 /* LaunchBoardMainWindow.m */,
+				4A80274B12AD0AB000C9355B /* LaunchBoard.h */,
+				4A80274C12AD0AB000C9355B /* LaunchBoard.m */,
+				4AEE3CAA12B794D800FE2962 /* LaunchButton.h */,
+				4AEE3CAB12B794D800FE2962 /* LaunchButton.m */,
+				4AEE3D3112B7966800FE2962 /* LaunchWindow.h */,
+				4AEE3D3212B7966800FE2962 /* LaunchWindow.m */,
+				4AA2906C142763BF007EFAD1 /* LaunchBoardPreferences.h */,
+				4AA2906D142763BF007EFAD1 /* LaunchBoardPreferences.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AEE3EEE12B7AD7400FE2962 /* QuartzCore.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* LaunchBoard.MPplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4A80275712AD0AD800C9355B /* MPPluginInterface.h */,
+				32DBCF630370AF2F00C91783 /* LaunchBoard_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* LaunchBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "LaunchBoard" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaunchBoard;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = LaunchBoard;
+			productReference = 8D5B49B6048680CD000E48DA /* LaunchBoard.MPplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "LaunchBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* LaunchBoard */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* LaunchBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				4A8027B112AD101400C9355B /* icon.png in Resources */,
+				4A0AF9B612B8C79E00383309 /* delete.png in Resources */,
+				4A0AF9B712B8C79E00383309 /* dot_white.png in Resources */,
+				4A0AF9B812B8C79E00383309 /* dot_black.png in Resources */,
+				4AA66CA412CDC34F00D4F374 /* showLaunchBoard.png in Resources */,
+				4AA29070142763BF007EFAD1 /* LaunchBoardPreferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A80274D12AD0AB000C9355B /* LaunchBoard.m in Sources */,
+				4AEE3CAC12B794D800FE2962 /* LaunchButton.m in Sources */,
+				4AEE3D3312B7966800FE2962 /* LaunchWindow.m in Sources */,
+				4ACC814A12E428B400039B44 /* LaunchBoardMainWindow.m in Sources */,
+				4ACC81F612E42EF200039B44 /* BlurWindow.m in Sources */,
+				4AA2906F142763BF007EFAD1 /* LaunchBoardPreferences.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LaunchBoard_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Users/valexa/Library/Developer/Xcode/DerivedData/@builds/Products/Release\"",
+					"\"/Users/valexa/Library/Developer/Xcode/DerivedData/@builds/Products/Debug\"",
+				);
+				PRODUCT_NAME = LaunchBoard;
+				WRAPPER_EXTENSION = MPplugin;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LaunchBoard_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Users/valexa/Library/Developer/Xcode/DerivedData/@builds/Products/Release\"",
+					"\"/Users/valexa/Library/Developer/Xcode/DerivedData/@builds/Products/Debug\"",
+				);
+				PRODUCT_NAME = LaunchBoard;
+				WRAPPER_EXTENSION = MPplugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "PLUGIN=1";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = MPplugin;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Vlad Alexa";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PREPROCESSOR_DEFINITIONS = "PLUGIN=1";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = MPplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "LaunchBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "LaunchBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

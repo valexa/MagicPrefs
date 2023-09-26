@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A8CCD9D11197ADF00076CE2 /* KeyCodeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8CCD9B11197ADF00076CE2 /* KeyCodeManager.h */; };
+		4A8CCD9E11197ADF00076CE2 /* KeyCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8CCD9C11197ADF00076CE2 /* KeyCodeManager.m */; };
+		4A8CCDA111197AF600076CE2 /* KeyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8CCD9F11197AF600076CE2 /* KeyView.h */; };
+		4A8CCDA211197AF600076CE2 /* KeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8CCDA011197AF600076CE2 /* KeyView.m */; };
+		4A8CCDED11197C9700076CE2 /* MenuImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8CCDEB11197C9700076CE2 /* MenuImage.h */; };
+		4A8CCDEE11197C9700076CE2 /* MenuImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8CCDEC11197C9700076CE2 /* MenuImage.m */; };
+		4A8CCE1411197DE500076CE2 /* KeyCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A8CCE1311197DE500076CE2 /* KeyCode.plist */; };
+		4A8CCE3F1119806D00076CE2 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8CCE391119806D00076CE2 /* gradient.png */; };
+		4A8CCE401119806D00076CE2 /* ico_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8CCE3A1119806D00076CE2 /* ico_app.png */; };
+		4A8CCE411119806D00076CE2 /* ico_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8CCE3B1119806D00076CE2 /* ico_custom.png */; };
+		4A8CCE421119806D00076CE2 /* ico_key.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8CCE3C1119806D00076CE2 /* ico_key.png */; };
+		4A8CCE431119806D00076CE2 /* ico_script.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8CCE3D1119806D00076CE2 /* ico_script.png */; };
+		4A8CCE441119806D00076CE2 /* ico_window.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8CCE3E1119806D00076CE2 /* ico_window.png */; };
+		4A94FCB611165C9A00E55BE1 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A94FCB511165C9A00E55BE1 /* select.png */; };
+		4AAE8C82111693B000D73D29 /* select_.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE8C81111693B000D73D29 /* select_.png */; };
+		4AD03D8B1116393300C4DE28 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4AD03D8A1116393300C4DE28 /* icon.icns */; };
+		4AD03DA511163C2900C4DE28 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AD03DA411163C2900C4DE28 /* background.png */; };
+		4AD03DAD11163C9B00C4DE28 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AD03DAC11163C9B00C4DE28 /* default.png */; };
+		4AE85904117AF90F001E5FA1 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE85903117AF90F001E5FA1 /* Carbon.framework */; };
+		8D202CEA0486D31800D8A456 /* MagicMenu_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA20370C41700C91783 /* MagicMenu_Prefix.pch */; };
+		8D202CEB0486D31800D8A456 /* MagicMenuMain.h in Headers */ = {isa = PBXBuildFile; fileRef = F506C03C013D9D7901CA16C8 /* MagicMenuMain.h */; };
+		8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D202CEF0486D31800D8A456 /* MagicMenuWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F506C042013D9D8C01CA16C8 /* MagicMenuWindow.xib */; };
+		8D202CF10486D31800D8A456 /* MagicMenuMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* MagicMenuMain.m */; };
+		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA20370C41700C91783 /* MagicMenu_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicMenu_Prefix.pch; sourceTree = "<group>"; };
+		4A8CCD9B11197ADF00076CE2 /* KeyCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyCodeManager.h; path = ../MagicPrefs/KeyCodeManager.h; sourceTree = SOURCE_ROOT; };
+		4A8CCD9C11197ADF00076CE2 /* KeyCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyCodeManager.m; path = ../MagicPrefs/KeyCodeManager.m; sourceTree = SOURCE_ROOT; };
+		4A8CCD9F11197AF600076CE2 /* KeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyView.h; path = ../MagicPrefs/KeyView.h; sourceTree = SOURCE_ROOT; };
+		4A8CCDA011197AF600076CE2 /* KeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyView.m; path = ../MagicPrefs/KeyView.m; sourceTree = SOURCE_ROOT; };
+		4A8CCDEB11197C9700076CE2 /* MenuImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuImage.h; sourceTree = "<group>"; };
+		4A8CCDEC11197C9700076CE2 /* MenuImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuImage.m; sourceTree = "<group>"; };
+		4A8CCE1311197DE500076CE2 /* KeyCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = KeyCode.plist; path = ../MagicPrefs/KeyCode.plist; sourceTree = SOURCE_ROOT; };
+		4A8CCE391119806D00076CE2 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gradient.png; path = ../MagicPrefs/gradient.png; sourceTree = SOURCE_ROOT; };
+		4A8CCE3A1119806D00076CE2 /* ico_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_app.png; path = ../MagicPrefs/ico_app.png; sourceTree = SOURCE_ROOT; };
+		4A8CCE3B1119806D00076CE2 /* ico_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_custom.png; path = ../MagicPrefs/ico_custom.png; sourceTree = SOURCE_ROOT; };
+		4A8CCE3C1119806D00076CE2 /* ico_key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_key.png; path = ../MagicPrefs/ico_key.png; sourceTree = SOURCE_ROOT; };
+		4A8CCE3D1119806D00076CE2 /* ico_script.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_script.png; path = ../MagicPrefs/ico_script.png; sourceTree = SOURCE_ROOT; };
+		4A8CCE3E1119806D00076CE2 /* ico_window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_window.png; path = ../MagicPrefs/ico_window.png; sourceTree = SOURCE_ROOT; };
+		4A94FCB511165C9A00E55BE1 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
+		4AAE8C81111693B000D73D29 /* select_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_.png; sourceTree = "<group>"; };
+		4AD03D8A1116393300C4DE28 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		4AD03DA411163C2900C4DE28 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		4AD03DAC11163C9B00C4DE28 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		4AE85903117AF90F001E5FA1 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* MagicMenu.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicMenu.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		F506C03C013D9D7901CA16C8 /* MagicMenuMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicMenuMain.h; sourceTree = "<group>"; };
+		F506C03D013D9D7901CA16C8 /* MagicMenuMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicMenuMain.m; sourceTree = "<group>"; };
+		F506C043013D9D8C01CA16C8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MagicMenuWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
+				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+				4AE85904117AF90F001E5FA1 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* MagicMenu */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA10370C40200C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				4A8CCE2C11197FE100076CE2 /* Other Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = MagicMenu;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE8C81111693B000D73D29 /* select_.png */,
+				4A94FCB511165C9A00E55BE1 /* select.png */,
+				4AD03D8A1116393300C4DE28 /* icon.icns */,
+				4AD03DAC11163C9B00C4DE28 /* default.png */,
+				4AD03DA411163C2900C4DE28 /* background.png */,
+				8D202CF70486D31800D8A456 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				F506C042013D9D8C01CA16C8 /* MagicMenuWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCFA20370C41700C91783 /* MagicMenu_Prefix.pch */,
+				4A8CCDEB11197C9700076CE2 /* MenuImage.h */,
+				4A8CCDEC11197C9700076CE2 /* MenuImage.m */,
+				F506C03C013D9D7901CA16C8 /* MagicMenuMain.h */,
+				F506C03D013D9D7901CA16C8 /* MagicMenuMain.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AE85903117AF90F001E5FA1 /* Carbon.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF80486D31800D8A456 /* MagicMenu.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA10370C40200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4A8CCD9F11197AF600076CE2 /* KeyView.h */,
+				4A8CCDA011197AF600076CE2 /* KeyView.m */,
+				4A8CCD9B11197ADF00076CE2 /* KeyCodeManager.h */,
+				4A8CCD9C11197ADF00076CE2 /* KeyCodeManager.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4A8CCE2C11197FE100076CE2 /* Other Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A8CCE1311197DE500076CE2 /* KeyCode.plist */,
+				4A8CCE391119806D00076CE2 /* gradient.png */,
+				4A8CCE3A1119806D00076CE2 /* ico_app.png */,
+				4A8CCE3B1119806D00076CE2 /* ico_custom.png */,
+				4A8CCE3C1119806D00076CE2 /* ico_key.png */,
+				4A8CCE3D1119806D00076CE2 /* ico_script.png */,
+				4A8CCE3E1119806D00076CE2 /* ico_window.png */,
+			);
+			name = "Other Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D202CE90486D31800D8A456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CEA0486D31800D8A456 /* MagicMenu_Prefix.pch in Headers */,
+				8D202CEB0486D31800D8A456 /* MagicMenuMain.h in Headers */,
+				4A8CCD9D11197ADF00076CE2 /* KeyCodeManager.h in Headers */,
+				4A8CCDA111197AF600076CE2 /* KeyView.h in Headers */,
+				4A8CCDED11197C9700076CE2 /* MenuImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D202CE80486D31800D8A456 /* MagicMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "MagicMenu" */;
+			buildPhases = (
+				8D202CE90486D31800D8A456 /* Headers */,
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				8D202CF50486D31800D8A456 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicMenu;
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = MagicMenu;
+			productReference = 8D202CF80486D31800D8A456 /* MagicMenu.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "MagicMenu" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* MagicMenu */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D202CE80486D31800D8A456 /* MagicMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */,
+				8D202CEF0486D31800D8A456 /* MagicMenuWindow.xib in Resources */,
+				4AD03D8B1116393300C4DE28 /* icon.icns in Resources */,
+				4AD03DA511163C2900C4DE28 /* background.png in Resources */,
+				4AD03DAD11163C9B00C4DE28 /* default.png in Resources */,
+				4A94FCB611165C9A00E55BE1 /* select.png in Resources */,
+				4AAE8C82111693B000D73D29 /* select_.png in Resources */,
+				4A8CCE1411197DE500076CE2 /* KeyCode.plist in Resources */,
+				4A8CCE3F1119806D00076CE2 /* gradient.png in Resources */,
+				4A8CCE401119806D00076CE2 /* ico_app.png in Resources */,
+				4A8CCE411119806D00076CE2 /* ico_custom.png in Resources */,
+				4A8CCE421119806D00076CE2 /* ico_key.png in Resources */,
+				4A8CCE431119806D00076CE2 /* ico_script.png in Resources */,
+				4A8CCE441119806D00076CE2 /* ico_window.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D202CF50486D31800D8A456 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF10486D31800D8A456 /* MagicMenuMain.m in Sources */,
+				4A8CCD9E11197ADF00076CE2 /* KeyCodeManager.m in Sources */,
+				4A8CCDA211197AF600076CE2 /* KeyView.m in Sources */,
+				4A8CCDEE11197C9700076CE2 /* MenuImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F506C042013D9D8C01CA16C8 /* MagicMenuWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F506C043013D9D8C01CA16C8 /* English */,
+			);
+			name = MagicMenuWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBD214908BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MagicMenu_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = MagicMenu;
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DBD214A08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MagicMenu_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = MagicMenu;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DBD214D08BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Vlad Alexa";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Debug;
+		};
+		1DBD214E08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Vlad Alexa";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "MagicMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214908BA80EA00186707 /* Debug */,
+				1DBD214A08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "MagicMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214D08BA80EA00186707 /* Debug */,
+				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

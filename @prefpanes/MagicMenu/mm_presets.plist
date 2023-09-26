@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Default</key>
+	<dict>
+		<key>mm_bindings</key>
+		<dict>
+			<key>1</key>
+			<dict>
+				<key>state</key>
+				<string>1</string>
+				<key>target</key>
+				<string>Hide All Other Applications</string>
+			</dict>
+			<key>2</key>
+			<dict>
+				<key>state</key>
+				<string>1</string>
+				<key>target</key>
+				<string>Copy</string>
+			</dict>
+			<key>3</key>
+			<dict>
+				<key>state</key>
+				<string>1</string>
+				<key>target</key>
+				<string>Paste</string>
+			</dict>
+			<key>4</key>
+			<dict>
+				<key>state</key>
+				<string>1</string>
+				<key>target</key>
+				<string>UnHide All Applications</string>
+			</dict>
+		</dict>
+		<key>mm_Disabled</key>
+		<true/>
+		<key>mm_Delay</key>
+		<integer>2</integer>
+		<key>mm_SelectSens</key>
+		<string>5</string>
+		<key>mm_Trigger</key>
+		<string>Tap the apple stem</string>
+	</dict>
+</dict>
+</plist>

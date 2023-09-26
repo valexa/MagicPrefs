@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A38418412DDF11D000B582C /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4A38418312DDF11D000B582C /* icon.icns */; };
+		4A38428E12DDFDFA000B582C /* HeatSyncPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A38428912DDFDFA000B582C /* HeatSyncPreferences.xib */; };
+		4A38428F12DDFDFA000B582C /* fan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A38428A12DDFDFA000B582C /* fan.png */; };
+		4A38429112DDFDFA000B582C /* route.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A38428C12DDFDFA000B582C /* route.png */; };
+		4A38429212DDFDFA000B582C /* thermometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A38428D12DDFDFA000B582C /* thermometer.png */; };
+		4A471BA912DF711A0064E9C5 /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A471BA512DF711A0064E9C5 /* smc.c */; };
+		4A471BAA12DF711A0064E9C5 /* smc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A471BA612DF711A0064E9C5 /* smc.h */; };
+		4A471BAB12DF711A0064E9C5 /* smcWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A471BA712DF711A0064E9C5 /* smcWrapper.h */; };
+		4A471BAC12DF711A0064E9C5 /* smcWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A471BA812DF711A0064E9C5 /* smcWrapper.m */; };
+		4A471C3112DF713F0064E9C5 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A471C3012DF713F0064E9C5 /* IOKit.framework */; };
+		4A471C3512DF715A0064E9C5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A471C3412DF715A0064E9C5 /* Security.framework */; };
+		4A6B2AFA12DFFBFC00326F48 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B2AF912DFFBFC00326F48 /* header.png */; };
+		4A6B2B8112E003E300326F48 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B2B8012E003E300326F48 /* back.png */; };
+		4A92263612E328B000481921 /* HeatSyncPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A92263412E328B000481921 /* HeatSyncPreferences.h */; };
+		4A92263712E328B000481921 /* HeatSyncPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A92263512E328B000481921 /* HeatSyncPreferences.m */; };
+		8D202CEA0486D31800D8A456 /* HeatSync_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA20370C41700C91783 /* HeatSync_Prefix.pch */; };
+		8D202CEB0486D31800D8A456 /* HeatSyncPref.h in Headers */ = {isa = PBXBuildFile; fileRef = F506C03C013D9D7901CA16C8 /* HeatSyncPref.h */; };
+		8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D202CEF0486D31800D8A456 /* HeatSyncPref.xib in Resources */ = {isa = PBXBuildFile; fileRef = F506C042013D9D8C01CA16C8 /* HeatSyncPref.xib */; };
+		8D202CF10486D31800D8A456 /* HeatSyncPref.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* HeatSyncPref.m */; };
+		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA20370C41700C91783 /* HeatSync_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeatSync_Prefix.pch; sourceTree = "<group>"; };
+		4A38418312DDF11D000B582C /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		4A38428912DDFDFA000B582C /* HeatSyncPreferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HeatSyncPreferences.xib; path = "../../@plugins/HeatSync/HeatSyncPreferences.xib"; sourceTree = SOURCE_ROOT; };
+		4A38428A12DDFDFA000B582C /* fan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fan.png; path = "../../@plugins/HeatSync/fan.png"; sourceTree = SOURCE_ROOT; };
+		4A38428C12DDFDFA000B582C /* route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = route.png; path = "../../@plugins/HeatSync/route.png"; sourceTree = SOURCE_ROOT; };
+		4A38428D12DDFDFA000B582C /* thermometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thermometer.png; path = "../../@plugins/HeatSync/thermometer.png"; sourceTree = SOURCE_ROOT; };
+		4A471BA512DF711A0064E9C5 /* smc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = smc.c; path = "../../@plugins/HeatSync/smc.c"; sourceTree = SOURCE_ROOT; };
+		4A471BA612DF711A0064E9C5 /* smc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = smc.h; path = "../../@plugins/HeatSync/smc.h"; sourceTree = SOURCE_ROOT; };
+		4A471BA712DF711A0064E9C5 /* smcWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = smcWrapper.h; path = "../../@plugins/HeatSync/smcWrapper.h"; sourceTree = SOURCE_ROOT; };
+		4A471BA812DF711A0064E9C5 /* smcWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = smcWrapper.m; path = "../../@plugins/HeatSync/smcWrapper.m"; sourceTree = SOURCE_ROOT; };
+		4A471C3012DF713F0064E9C5 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		4A471C3412DF715A0064E9C5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		4A6B2AF912DFFBFC00326F48 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header.png; path = "../../@plugins/HeatSync/header.png"; sourceTree = SOURCE_ROOT; };
+		4A6B2B8012E003E300326F48 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		4A92263412E328B000481921 /* HeatSyncPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeatSyncPreferences.h; path = "../../@plugins/HeatSync/HeatSyncPreferences.h"; sourceTree = SOURCE_ROOT; };
+		4A92263512E328B000481921 /* HeatSyncPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeatSyncPreferences.m; path = "../../@plugins/HeatSync/HeatSyncPreferences.m"; sourceTree = SOURCE_ROOT; };
+		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* HeatSync.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatSync.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		F506C03C013D9D7901CA16C8 /* HeatSyncPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeatSyncPref.h; sourceTree = "<group>"; };
+		F506C03D013D9D7901CA16C8 /* HeatSyncPref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeatSyncPref.m; sourceTree = "<group>"; };
+		F506C043013D9D8C01CA16C8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/HeatSyncPref.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
+				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+				4A471C3112DF713F0064E9C5 /* IOKit.framework in Frameworks */,
+				4A471C3512DF715A0064E9C5 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* HeatSync */ = {
+			isa = PBXGroup;
+			children = (
+				4A9226E812E32C6900481921 /* Linked Classes */,
+				4A38428012DDFDD7000B582C /* Preferences */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA10370C40200C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = HeatSync;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A6B2B8012E003E300326F48 /* back.png */,
+				4A38418312DDF11D000B582C /* icon.icns */,
+				8D202CF70486D31800D8A456 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				F506C042013D9D8C01CA16C8 /* HeatSyncPref.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F506C03C013D9D7901CA16C8 /* HeatSyncPref.h */,
+				F506C03D013D9D7901CA16C8 /* HeatSyncPref.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A471C3412DF715A0064E9C5 /* Security.framework */,
+				4A471C3012DF713F0064E9C5 /* IOKit.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF80486D31800D8A456 /* HeatSync.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA10370C40200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCFA20370C41700C91783 /* HeatSync_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4A38428012DDFDD7000B582C /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				4A92263412E328B000481921 /* HeatSyncPreferences.h */,
+				4A92263512E328B000481921 /* HeatSyncPreferences.m */,
+				4A38428912DDFDFA000B582C /* HeatSyncPreferences.xib */,
+				4A6B2AF912DFFBFC00326F48 /* header.png */,
+				4A38428A12DDFDFA000B582C /* fan.png */,
+				4A38428C12DDFDFA000B582C /* route.png */,
+				4A38428D12DDFDFA000B582C /* thermometer.png */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		4A9226E812E32C6900481921 /* Linked Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A471BA512DF711A0064E9C5 /* smc.c */,
+				4A471BA612DF711A0064E9C5 /* smc.h */,
+				4A471BA712DF711A0064E9C5 /* smcWrapper.h */,
+				4A471BA812DF711A0064E9C5 /* smcWrapper.m */,
+			);
+			name = "Linked Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D202CE90486D31800D8A456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CEA0486D31800D8A456 /* HeatSync_Prefix.pch in Headers */,
+				8D202CEB0486D31800D8A456 /* HeatSyncPref.h in Headers */,
+				4A471BAA12DF711A0064E9C5 /* smc.h in Headers */,
+				4A471BAB12DF711A0064E9C5 /* smcWrapper.h in Headers */,
+				4A92263612E328B000481921 /* HeatSyncPreferences.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D202CE80486D31800D8A456 /* HeatSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "HeatSync" */;
+			buildPhases = (
+				8D202CE90486D31800D8A456 /* Headers */,
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				8D202CF50486D31800D8A456 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeatSync;
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = HeatSync;
+			productReference = 8D202CF80486D31800D8A456 /* HeatSync.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "HeatSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* HeatSync */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D202CE80486D31800D8A456 /* HeatSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */,
+				8D202CEF0486D31800D8A456 /* HeatSyncPref.xib in Resources */,
+				4A38418412DDF11D000B582C /* icon.icns in Resources */,
+				4A38428E12DDFDFA000B582C /* HeatSyncPreferences.xib in Resources */,
+				4A38428F12DDFDFA000B582C /* fan.png in Resources */,
+				4A38429112DDFDFA000B582C /* route.png in Resources */,
+				4A38429212DDFDFA000B582C /* thermometer.png in Resources */,
+				4A6B2AFA12DFFBFC00326F48 /* header.png in Resources */,
+				4A6B2B8112E003E300326F48 /* back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D202CF50486D31800D8A456 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF10486D31800D8A456 /* HeatSyncPref.m in Sources */,
+				4A471BA912DF711A0064E9C5 /* smc.c in Sources */,
+				4A471BAC12DF711A0064E9C5 /* smcWrapper.m in Sources */,
+				4A92263712E328B000481921 /* HeatSyncPreferences.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F506C042013D9D8C01CA16C8 /* HeatSyncPref.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F506C043013D9D8C01CA16C8 /* English */,
+			);
+			name = HeatSyncPref.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBD214908BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Vlad Alexa";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HeatSync_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = HeatSync;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DBD214A08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Vlad Alexa";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HeatSync_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = HeatSync;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DBD214D08BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Debug;
+		};
+		1DBD214E08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "HeatSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214908BA80EA00186707 /* Debug */,
+				1DBD214A08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "HeatSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214D08BA80EA00186707 /* Debug */,
+				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

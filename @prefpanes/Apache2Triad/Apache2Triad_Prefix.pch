@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Apache2Triad' target in the 'Apache2Triad' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
+#endif

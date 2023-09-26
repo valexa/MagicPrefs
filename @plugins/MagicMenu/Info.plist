@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.vladalexa.MagicPrefs.${PRODUCT_NAME:rfc1034Identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>3</string>
+	<key>MPDescriptionString</key>
+	<string>MagicMenu is like a right click menu, only you navigate it trough finger movements and touches instead of cursor movements (adds the MagicMenu pref pane)</string>
+	<key>MPUrlString</key>
+	<string>http://magicprefs.com/plugins/</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Vlad Alexa</string>
+	<key>NSPrincipalClass</key>
+	<string>MagicMenu</string>
+</dict>
+</plist>
